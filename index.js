@@ -8,7 +8,7 @@ const path = require("path")
 const readline = require("readline");
 const pino = require("pino");
 const fs = require("fs")
-const { handleCommands } = require("./handleCommands.js")
+const { handleCommands } = require("./handleCommands.ts")
 
 const question = (string) => {
 	const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
