@@ -14,5 +14,25 @@
   },
   "trustedDependencies": [
     "protobufjs"
-  ]
+  ],
+  "version": "1.0.0",
+  "description": "Um bot para organizar atividades escolares diretamente no WhatsApp em grupos.\r Assim como numa agenda escolar, o objetivo principal dessa ferramenta é facilitar o gerenciamento de atividades escolares por meio do WhatsApp.",
+  "main": "index.js",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o4tv/agenda-bot.git"
+  },
+  "author": "Otavio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/o4tv/agenda-bot/issues"
+  },
+  "homepage": "https://github.com/o4tv/agenda-bot#readme"
 }
